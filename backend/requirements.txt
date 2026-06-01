@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+chromadb
+pydantic
+sqlalchemy
+python-dotenv
+pypdf
+python-docx
+pytest

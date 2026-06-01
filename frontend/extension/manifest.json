@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Pace-Matching AI Tutor",
+  "version": "1.0",
+  "description": "Your private AI companion for Canvas.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "public/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.instructure.com/*"],
+      "js": ["src/scripts/content.js"],
+      "css": ["src/assets/style.css"]
+    }
+  ],
+  "host_permissions": ["http://localhost:8000/*"]
+}

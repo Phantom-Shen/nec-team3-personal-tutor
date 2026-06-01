@@ -1,0 +1,22 @@
+Linear Regression Module
+Overview: Linear regression is a fundamental statistical and machine learning technique used to model the relationship between a dependent variable and one or more independent variables.
+
+1. The Linear Equation
+The core of linear regression is the equation y = mx + b. 
+- 'y' is the dependent variable (the thing we are trying to predict).
+- 'x' is the independent variable (the input data).
+- 'm' is the slope (how much y changes for every unit change in x).
+- 'b' is the y-intercept (the value of y when x is 0).
+
+2. Cost Function (Mean Squared Error)
+To find the best line, we need to measure how 'wrong' our predictions are. We use the Mean Squared Error (MSE), which is the average of the squared differences between the actual and predicted values. Minimizing MSE is the goal of the training process.
+
+3. Gradient Descent
+Gradient descent is an optimization algorithm used to minimize the cost function. It works by taking small steps in the direction of the steepest decrease in error. The 'learning rate' determines the size of these steps.
+
+4. Assumptions of Linear Regression
+For linear regression to work well, several assumptions must hold:
+- Linearity: The relationship between x and y must be linear.
+- Independence: Observations must be independent of each other.
+- Homoscedasticity: The variance of the errors should be constant.
+- Normality: The errors should be normally distributed.

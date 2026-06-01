@@ -1,0 +1,12 @@
+/* CSS for injected elements on Canvas */
+.tutor-explain-btn {
+    transition: all 0.2s;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.tutor-explain-btn:hover {
+    background-color: #007bff !important;
+    color: white !important;
+    transform: scale(1.05);
+}
